@@ -62,7 +62,7 @@ export default function HomeScreen() {
       <View style={styles.header}>
         {/* НОВЫЙ ЗАГОЛОВОК: Название + Кнопка Premium */}
         <View style={styles.titleRow}>
-          <Text style={styles.greeting}>ZenPulse AI</Text>
+          <Text style={styles.greeting}>ZenPulse</Text>
           
           <TouchableOpacity 
             onPress={() => router.push('/paywall' as any)}
