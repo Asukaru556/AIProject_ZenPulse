@@ -60,7 +60,6 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
       <View style={styles.header}>
-        {/* НОВЫЙ ЗАГОЛОВОК: Название + Кнопка Premium */}
         <View style={styles.titleRow}>
           <Text style={styles.greeting}>ZenPulse</Text>
           
@@ -69,7 +68,7 @@ export default function HomeScreen() {
             activeOpacity={0.8}
           >
             <LinearGradient
-              colors={[Colors.accent, '#F39C12']} // Золотой градиент
+              colors={[Colors.accent, '#F39C12']} 
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 0 }}
               style={styles.premiumBtn}
